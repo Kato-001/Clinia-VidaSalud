@@ -1,0 +1,12 @@
+# Secretos y archivos locales (nunca subir a GitHub)
+.env
+.env.*
+!.env.example
+backend/.env
+backend/vendor/
+backend/storage/logs/*.log
+backend/.phpunit.result.cache
+node_modules/
+.vscode/
+Thumbs.db
+.DS_Store

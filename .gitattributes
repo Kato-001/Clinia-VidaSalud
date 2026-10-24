@@ -1,0 +1,4 @@
+# El script de arranque del contenedor debe tener saltos de línea de Linux (LF)
+*.sh text eol=lf
+Dockerfile text eol=lf
+docker/* text eol=lf

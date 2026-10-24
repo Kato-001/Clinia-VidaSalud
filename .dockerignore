@@ -1,0 +1,16 @@
+# No se copian a la imagen: secretos, dependencias locales y archivos de trabajo
+**/.env
+**/.env.*
+!backend/.env.example
+backend/vendor
+backend/storage/logs/*
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+backend/tests
+backend/.phpunit.result.cache
+**/node_modules
+.git
+.vscode
+Documentacion
